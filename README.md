@@ -9,6 +9,6 @@ Consider you have your Application Gateways in multiple Azure regions, you can s
 
 You can capture all your Application Gateway Logs in your Azure Storage Account. By default, this is disabled. You may have to turn on diagnostics and select the option *Archive to Storage Account*.
 
-Application Gateway logs so many attributes. This script would only collect information like Client ip, Request URI, time, response time etc. and then exports it into a csv file.
+Application Gateway logs so many attributes. This script would only collect information like Client ip, Request URI, time, response time etc. and then exports them into a csv file.
 
 Once all the needed logs are collected, the script would calculate the number of hits made to all the unique URIs in your site with the average reponse time and exports it into a csv file which can be sent to many through e-mail. This report can give a fair idea about the number of hits made to your site and also its performance. This csv file can then be fed into some visualization tools to get a detailed analysis of it.
